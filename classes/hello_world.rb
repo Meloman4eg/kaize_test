@@ -1,4 +1,4 @@
-class String
+class HelloWorld < String
 
 	def solution
 		upcase
