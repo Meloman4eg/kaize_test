@@ -1,5 +1,4 @@
 require "test_helper"
-require "hello_world"
 
 class HelloWorldTest < Minitest::Test
 

@@ -1,5 +1,4 @@
 require "test_helper"
-require "blackjack"
 
 class BlackjackTest < Minitest::Test
 

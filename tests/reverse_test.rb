@@ -1,5 +1,4 @@
 require "test_helper"
-require "reverse"
 
 class ReverseTest < Minitest::Test
 

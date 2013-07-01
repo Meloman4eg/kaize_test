@@ -1,5 +1,4 @@
 require "test_helper"
-require "the_truth"
 
 class TheTruthTest < Minitest::Test
 

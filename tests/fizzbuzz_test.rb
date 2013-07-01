@@ -1,5 +1,4 @@
 require "test_helper"
-require "fizzbuzz"
 
 class FizzBuzzTest < Minitest::Test
 
