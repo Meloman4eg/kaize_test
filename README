@@ -1,2 +1,5 @@
 Hello world!
 This is my first project in undev!
+
+Travis CI runs rake after each commit.
+Current status: !https://travis-ci.org/Meloman4eg/kaize_test.png?branch=master!:https://travis-ci.org/Meloman4eg/kaize_test
