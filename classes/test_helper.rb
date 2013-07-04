@@ -1,3 +1,9 @@
+require 'simplecov'
+require 'coveralls'
+
+SimpleCov.start
+Coveralls.wear!
+
 require "minitest/autorun"
 
 # Classes to test
@@ -11,4 +17,6 @@ require "fizzbuzz"
 require "blackjack"
 require "missing_method"
 require "missing_method_second"
+require "substrating_out_the_sugar"
+
 require "problem"
