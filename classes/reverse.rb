@@ -1,7 +1,7 @@
 class Reverse
 
   def solution
-  	"chunky bacon"
+    "chunky bacon"
   end
-  
+
 end

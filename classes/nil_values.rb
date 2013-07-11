@@ -1,7 +1,7 @@
 class NilValues
-  
+
   def solution
-  	false
+    false
   end
-  
+
 end

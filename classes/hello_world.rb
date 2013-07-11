@@ -1,7 +1,5 @@
 class HelloWorld < String
-
-	def solution
-		upcase
-	end
-  
+  def solution
+    upcase
+  end
 end

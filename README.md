@@ -5,7 +5,7 @@ Rubeque Tests
 [![Coverage Status](https://coveralls.io/repos/Meloman4eg/kaize_test/badge.png?branch=master)](https://coveralls.io/r/Meloman4eg/kaize_test?branch=master)
 
 Hello world!
-This is my first project in undev!
+
 
 This is tests fron rubique.
 Travis CI runs rake after each commit.

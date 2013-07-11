@@ -1,8 +1,10 @@
 require 'simplecov'
 require 'coveralls'
 
-SimpleCov.start
-Coveralls.wear!
+if (ENV == "TRAVIS")
+  SimpleCov.start
+  Coveralls.wear!
+end
 
 require "minitest/autorun"
 
@@ -18,5 +20,9 @@ require "blackjack"
 require "missing_method"
 require "missing_method_second"
 require "substrating_out_the_sugar"
+require "set_intersection"
+require "getters_and_setters"
+require "queue"
+require "stack"
 
 require "problem"

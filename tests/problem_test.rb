@@ -65,7 +65,26 @@ class ProblemTest < Minitest::Test
   end
 
   def test_array_item_removal
-    #assert_equal ([:r, :u, :b, :e, :q, :u, :e] [2,5]), [:b, :q]
+    assert_equal @test.array_item_removal, [:b, :q]
+  end
+
+  def test_caution_case
+    assert_equal @test.caution_case( 1 ), true
+    assert_equal @test.caution_case( [1, 2] ), true
+    assert_equal @test.caution_case( {1=>2} ), true
+    assert_equal @test.caution_case( (1..2) ), false
+  end
+
+  def test_random_values
+    assert_equal (@test.random_values/1000000.0).round, @test.random_values_result
+  end
+
+  def test_defined
+    if false
+      w = :whatever
+    end
+
+    assert_equal defined?(w) != nil, @test.defined_value
   end
 
 end

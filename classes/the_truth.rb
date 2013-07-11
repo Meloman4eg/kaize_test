@@ -1,7 +1,7 @@
 class TheTruth
 
   def solution
-  	true
+    true
   end
-  
+
 end
